@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lester</title>
+  <meta name="description" content="Lester: reflexivo, creativo y en proceso. Aprendo haciendo.">
+  <meta name="theme-color" content="#FCEED5">
+  <link rel="preload" href="fonts/Britney-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sol" aria-hidden="true"></div>
+
+  <header class="top">
+    <a href="#inicio" class="marca">Lester</a>
+    <nav aria-label="Principal">
+      <a href="#mi">Yo</a>
+      <a href="#intereses">Intereses</a>
+      <a href="#proyectos">Proyectos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <p class="saludo" id="saludo">Hola, soy</p>
+      <h1 id="nombre">Lester</h1>
+      <p class="lema">Reflexivo, creativo y en proceso. Aprendo haciendo.</p>
+      <p class="pista">Baja despacio. El sol viene contigo.</p>
+    </section>
+
+    <section class="bloque" id="mi">
+      <h2>Un poco de mí</h2>
+      <p class="texto">Estoy en una etapa de preguntas y cambios, y prefiero que se note. Aprendo programación y diseño, y quiero convertir mis ideas en cosas que sirvan.</p>
+      <p class="texto">Soy tranquilo y algo reservado al inicio. Con confianza, me suelto.</p>
+    </section>
+
+    <section class="bloque" id="intereses">
+      <h2>Lo que me interesa</h2>
+      <p class="ayuda">Toca uno.</p>
+      <div class="chips" role="group" aria-label="Intereses">
+        <button class="chip" aria-pressed="false" data-texto="Me gusta ver qué se puede hacer con una herramienta digital y qué problema resuelve.">Tecnología</button>
+        <button class="chip" aria-pressed="false" data-texto="Sitios web y sistemas. Aprendo haciendo y todavía no digo que lo domino.">Programación</button>
+        <button class="chip" aria-pressed="false" data-texto="Editar y crear contenido para ver cómo una idea toma forma.">Diseño</button>
+        <button class="chip" aria-pressed="false" data-texto="Cristiana, clásica, indie folk, bandas sonoras, phonk, new wave… de todo un poco.">Música</button>
+        <button class="chip" aria-pressed="false" data-texto="Comida típica de Honduras, pastas, algo asiático y mariscos de vez en cuando.">Comida</button>
+        <button class="chip" aria-pressed="false" data-texto="El viaje de graduación a El Salvador y Guatemala sigue entre mis mejores recuerdos.">Viajes</button>
+        <button class="chip" aria-pressed="false" data-texto="Voleibol, y cualquier juego que rete la mente.">Deporte</button>
+        <button class="chip" aria-pressed="false" data-texto="Quiero aprender más idiomas además del español.">Idiomas</button>
+        <button class="chip" aria-pressed="false" data-texto="Mi fe cristiana es parte de cómo quiero vivir y decidir.">Fe</button>
+      </div>
+      <p class="respuesta" id="respuesta" aria-live="polite"></p>
+    </section>
+
+    <section class="bloque" id="valores">
+      <h2>Lo que me mueve</h2>
+      <div class="lista">
+        <details>
+          <summary>Honestidad</summary>
+          <p>Prefiero decir en qué etapa estoy a mostrar un éxito que todavía no existe.</p>
+        </details>
+        <details>
+          <summary>Lealtad</summary>
+          <p>Cumplir lo que prometo y quedarme con quienes quiero.</p>
+        </details>
+        <details>
+          <summary>Fe</summary>
+          <p>Agradezco a Dios lo que voy aprendiendo, aunque no lo entienda todo de inmediato.</p>
+        </details>
+        <details>
+          <summary>Servicio</summary>
+          <p>Ayudar sin convertir cada gesto en una deuda.</p>
+        </details>
+        <details>
+          <summary>Libertad para aprender</summary>
+          <p>Decidir y construir una vida con propósito, paso a paso.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="bloque" id="proyectos">
+      <h2>Lo que estoy creando</h2>
+      <ul class="proyectos">
+        <li>
+          <div>
+            <h3>Inventario y ventas</h3>
+            <p>Una herramienta para ordenar lo que se tiene y lo que se vende.</p>
+          </div>
+          <span class="estado">En proceso</span>
+        </li>
+        <li>
+          <div>
+            <h3>Plataforma de aprendizaje</h3>
+            <p>Un espacio para aprender haciendo.</p>
+          </div>
+          <span class="estado">En proceso</span>
+        </li>
+        <li>
+          <div>
+            <h3>Orden informático</h3>
+            <p>Mantener los equipos de una comunidad organizados y protegidos.</p>
+          </div>
+          <span class="estado">En proceso</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="bloque cierre" id="cierre">
+      <h2>Esto apenas empieza.</h2>
+      <p class="texto">Esta es la primera etapa. Pronto habrá más historias y fotos.</p>
+      <div class="enlaces">
+        <a class="boton" href="https://instagram.com/TU_USUARIO" target="_blank" rel="noopener">Escríbeme en Instagram</a>
+        <a class="subir" href="#inicio">Volver al inicio</a>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
